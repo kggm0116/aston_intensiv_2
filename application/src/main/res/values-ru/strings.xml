@@ -12,4 +12,5 @@
     <string name="toast_message">Привет Тост!</string>
     <string name="task_1_2_homework_text">1.2 Домашнее</string>
     <string name="task_1_2_challenge_text">1.2 Челлендж</string>
+    <string name="task_1_3_homework_text">1.3 Домашнее</string>
 </resources>

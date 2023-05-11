@@ -7,6 +7,7 @@ import ru.kggm.helloworld.HelloWorldActivity
 import ru.kggm.launcher.databinding.ActivityLauncherBinding
 import ru.kggm.happybirthday.HappyBirthdayActivity
 import ru.kggm.hellotoast.HelloToastActivity
+import ru.kggm.hellotoast.HelloToastUpgradeActivity
 import ru.kggm.hellotoast_challenge.HelloToastChallengeActivity
 
 class LauncherActivity : AppCompatActivity() {
@@ -31,6 +32,9 @@ class LauncherActivity : AppCompatActivity() {
         }
         binding.task12ChallengeButton.setOnClickListener {
             startActivity(Intent(this, HelloToastChallengeActivity::class.java))
+        }
+        binding.task13HomeworkButton.setOnClickListener {
+            startActivity(Intent(this, HelloToastUpgradeActivity::class.java))
         }
     }
 
