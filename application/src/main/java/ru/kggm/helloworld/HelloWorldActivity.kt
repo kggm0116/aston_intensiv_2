@@ -12,9 +12,13 @@ class HelloWorldActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        Log.i(LOG_TAG, "Entered 'onCreate' method")
         super.onCreate(savedInstanceState)
+        Log.v(LOG_TAG, "Called 'super.onCreate'")
+
         binding = ActivityHelloWorldBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        Log.w(LOG_TAG, "ContentView is set; Activity is initialized.")
 
         Log.d(LOG_TAG, "Hello World")
     }
