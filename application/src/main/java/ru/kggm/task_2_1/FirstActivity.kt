@@ -1,5 +1,6 @@
 package ru.kggm.task_2_1
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +15,8 @@ class FirstActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityFirstBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setClickListeners()
     }
 
     private fun setClickListeners() {
@@ -22,5 +25,6 @@ class FirstActivity : AppCompatActivity() {
 
     private fun launchSecondActivity() {
         Log.d(LOG_TAG, "Button clicked!");
+        startActivity(Intent(this, SecondActivity::class.java))
     }
 }

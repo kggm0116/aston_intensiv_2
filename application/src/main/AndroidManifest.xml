@@ -42,7 +42,8 @@
         <activity
             android:name="ru.kggm.task_2_1.FirstActivity" />
         <activity
-            android:name="ru.kggm.task_2_1.SecondActivity" />
+            android:name="ru.kggm.task_2_1.SecondActivity"
+            android:parentActivityName="ru.kggm.task_2_1.FirstActivity"/>
     </application>
 
 </manifest>
