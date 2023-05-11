@@ -6,4 +6,6 @@
     <dimen name="text_size_medium">24sp</dimen>
     <dimen name="text_size_small">16sp</dimen>
     <dimen name="launcher_button_padding">16dp</dimen>
+    <dimen name="padding_regular">10dp</dimen>
+    <dimen name="line_spacing">5sp</dimen>
 </resources>

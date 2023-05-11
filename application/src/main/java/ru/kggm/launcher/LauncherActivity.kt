@@ -3,11 +3,14 @@ package ru.kggm.launcher
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import ru.kggm.helloworld.HelloWorldActivity
+import ru.kggm.task_1_1.HelloWorldActivity
 import ru.kggm.launcher.databinding.ActivityLauncherBinding
-import ru.kggm.happybirthday.HappyBirthdayActivity
-import ru.kggm.hellotoast.HelloToastActivity
-import ru.kggm.hellotoast_challenge.HelloToastChallengeActivity
+import ru.kggm.task_1_1_challenge.HappyBirthdayActivity
+import ru.kggm.task_1_2_A.HelloToastActivity
+import ru.kggm.task_1_2_A.HelloToastUpgradeActivity
+import ru.kggm.task_1_2_B_homework.HelloToastConstraintActivity
+import ru.kggm.task_1_2_challenge.HelloToastChallengeActivity
+import ru.kggm.task_1_3.ScrollingActivity
 
 class LauncherActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLauncherBinding
@@ -26,11 +29,17 @@ class LauncherActivity : AppCompatActivity() {
         binding.task11ChallengeButton.setOnClickListener {
             startActivity(Intent(this, HappyBirthdayActivity::class.java))
         }
-        binding.task12HomeworkButton.setOnClickListener {
+        binding.task12AHomeworkButton.setOnClickListener {
             startActivity(Intent(this, HelloToastActivity::class.java))
         }
-        binding.task12ChallengeButton.setOnClickListener {
+        binding.task12AChallengeButton.setOnClickListener {
             startActivity(Intent(this, HelloToastChallengeActivity::class.java))
+        }
+        binding.task12BHomeworkButton.setOnClickListener {
+            startActivity(Intent(this, HelloToastConstraintActivity::class.java))
+        }
+        binding.task13HomeworkButton.setOnClickListener {
+            startActivity(Intent(this, ScrollingActivity::class.java))
         }
     }
 
