@@ -11,6 +11,7 @@ import ru.kggm.task_1_2_A.HelloToastUpgradeActivity
 import ru.kggm.task_1_2_B_homework.HelloToastConstraintActivity
 import ru.kggm.task_1_2_challenge.HelloToastChallengeActivity
 import ru.kggm.task_1_3.ScrollingActivity
+import ru.kggm.task_2_1.FirstActivity
 
 class LauncherActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLauncherBinding
@@ -40,6 +41,10 @@ class LauncherActivity : AppCompatActivity() {
         }
         binding.task13HomeworkButton.setOnClickListener {
             startActivity(Intent(this, ScrollingActivity::class.java))
+        }
+
+        binding.task21HomeworkButton.setOnClickListener {
+            startActivity(Intent(this, FirstActivity::class.java))
         }
     }
 
