@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Part_1_Challenge</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+
+    <string name="happy_birthday_text_template">Happy birthday to %1$s!</string>
+    <string name="name_karim">Karim</string>
+    <string name="name_oleg">Oleg</string>
+    <string name="name_arthur">Arthur</string>
+</resources>
