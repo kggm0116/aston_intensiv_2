@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size_giant">54sp</dimen>
+    <dimen name="text_size_very_large">42sp</dimen>
+    <dimen name="text_size_large">32sp</dimen>
+    <dimen name="text_size_medium">24sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="launcher_button_padding">16dp</dimen>
+</resources>
