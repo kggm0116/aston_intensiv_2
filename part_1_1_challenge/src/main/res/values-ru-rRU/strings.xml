@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="happy_birthday_text_template">С днем рождения %1$s!</string>
-    <string name="name_karim">Карим</string>
-    <string name="name_oleg">Олег</string>
-    <string name="name_arthur">Артур</string>
-</resources>

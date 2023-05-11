@@ -10,8 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/helloworld" />
-            <option value="$PROJECT_DIR$/part_1_1_challenge" />
+            <option value="$PROJECT_DIR$/application" />
           </set>
         </option>
       </GradleProjectSettings>

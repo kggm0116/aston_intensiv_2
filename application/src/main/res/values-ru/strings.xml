@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_1_1_homework_text">1.1 Домашнее</string>
+    <string name="task_1_1_challenge_text">1.1 Челлендж</string>
+    <string name="happy_birthday_text_template">С днем рождения 1$s!</string>
+    <string name="name_karim">Карим</string>
+    <string name="name_oleg">Олег</string>
+    <string name="name_arthur">Артур</string>
+    <string name="app_name">Астон Интенсив 2</string>
+</resources>
