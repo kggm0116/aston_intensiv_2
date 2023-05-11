@@ -6,6 +6,7 @@ import android.os.Bundle
 import ru.kggm.helloworld.HelloWorldActivity
 import ru.kggm.launcher.databinding.ActivityLauncherBinding
 import ru.kggm.happybirthday.HappyBirthdayActivity
+import ru.kggm.hellotoast.HelloToastActivity
 
 class LauncherActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLauncherBinding
@@ -23,6 +24,9 @@ class LauncherActivity : AppCompatActivity() {
         }
         binding.task11ChallengeButton.setOnClickListener {
             startActivity(Intent(this, HappyBirthdayActivity::class.java))
+        }
+        binding.task12HomeworkButton.setOnClickListener {
+            startActivity(Intent(this, HelloToastActivity::class.java))
         }
     }
 

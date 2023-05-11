@@ -7,4 +7,8 @@
     <string name="name_oleg">Олег</string>
     <string name="name_arthur">Артур</string>
     <string name="app_name">Астон Интенсив 2</string>
+    <string name="button_label_toast">Тост</string>
+    <string name="button_label_count">Счет</string>
+    <string name="toast_message">Привет Тост!</string>
+    <string name="task_1_2_homework_text">1.2 Домашнее</string>
 </resources>

@@ -9,13 +9,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AstonTask2">
         <activity
-            android:name=".ActivityHelloToast"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".LauncherActivity"
             android:exported="true"
             android:theme="@style/Theme.AstonTask2.NoActionBar">
@@ -30,6 +23,9 @@
             android:theme="@style/Theme.AstonTask2.NoActionBar"></activity>
         <activity
             android:name="ru.kggm.helloworld.HelloWorldActivity"
+            android:theme="@style/Theme.AstonTask2.NoActionBar"></activity>
+        <activity
+            android:name="ru.kggm.hellotoast.HelloToastActivity"
             android:theme="@style/Theme.AstonTask2.NoActionBar"></activity>
     </application>
 
