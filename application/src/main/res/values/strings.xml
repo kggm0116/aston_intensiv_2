@@ -2,4 +2,6 @@
     <string name="app_name">Aston Task 2</string>
     <string name="task_1_1_homework_text">1.1 Homework</string>
     <string name="task_1_1_challenge_text">1.1 Challenge</string>
+    <string name="task_1_2_homework_text">1.2 Homework</string>
+    <string name="task_1_2_challenge_text">1.2 Challenge</string>
 </resources>
