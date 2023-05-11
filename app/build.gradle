@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'ru.kggm.aston_task_2'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "ru.kggm.aston_task_2"
         minSdk 24
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
