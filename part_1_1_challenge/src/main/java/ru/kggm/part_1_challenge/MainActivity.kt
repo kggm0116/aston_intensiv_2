@@ -1,4 +1,4 @@
-package ru.kggm.part_1_challenge;
+package ru.kggm.part_1_1_challenge;
 
 import android.content.Context
 import android.content.res.Resources
@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.util.Log
 import androidx.annotation.StringRes
 import androidx.core.os.LocaleListCompat
-import ru.kggm.part_1_challenge.databinding.ActivityMainBinding
+import ru.kggm.part_1_1_challenge.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {

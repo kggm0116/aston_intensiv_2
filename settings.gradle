@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AstonTask2"
-include ':app'
-include ':part_1_challenge'
+include ':part_1_1_challenge'
+include ':helloworld'
