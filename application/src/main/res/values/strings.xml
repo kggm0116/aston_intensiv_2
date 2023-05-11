@@ -32,4 +32,5 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="task_2_1_homework_text">2.1 Homework</string>
     <string name="first_button_text">Send</string>
     <string name="message_received_text">Message Received</string>
+    <string name="send_hint">Enter Your Message Here</string>
 </resources>
