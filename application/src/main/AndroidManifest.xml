@@ -19,16 +19,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ru.kggm.happybirthday.HappyBirthdayActivity"
+            android:name="ru.kggm.task_1_1_challenge.HappyBirthdayActivity"
             android:theme="@style/Theme.AstonTask2.NoActionBar" />
         <activity
-            android:name="ru.kggm.helloworld.HelloWorldActivity"
+            android:name="ru.kggm.task_1_1.HelloWorldActivity"
             android:theme="@style/Theme.AstonTask2.NoActionBar" />
         <activity
-            android:name="ru.kggm.hellotoast.HelloToastActivity"
+            android:name="ru.kggm.task_1_2_A.HelloToastActivity"
             android:theme="@style/Theme.AstonTask2.NoActionBar" />
         <activity
-            android:name="ru.kggm.hellotoast_challenge.HelloToastChallengeActivity"
+            android:name="ru.kggm.task_1_2_challenge.HelloToastChallengeActivity"
+            android:theme="@style/Theme.AstonTask2.NoActionBar" />
+        <activity
+            android:name="ru.kggm.task_1_2_B_homework.HelloToastConstraintActivity"
+            android:theme="@style/Theme.AstonTask2.NoActionBar" />
+        <activity
+            android:name="ru.kggm.task_1_3.ScrollingActivity"
             android:theme="@style/Theme.AstonTask2.NoActionBar" />
     </application>
 

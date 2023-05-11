@@ -1,23 +1,22 @@
-package ru.kggm.hellotoast
+package ru.kggm.task_1_2_A
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.Toast
 import ru.kggm.launcher.R
-import ru.kggm.launcher.databinding.ActivityHelloToastBinding
+import ru.kggm.launcher.databinding.ActivityHelloToastUpgradeBinding
 
-class HelloToastActivity : AppCompatActivity() {
+class HelloToastUpgradeActivity : AppCompatActivity() {
     companion object {
         private const val COUNT_BUNDLE_KEY = "count"
     }
 
-    private lateinit var binding: ActivityHelloToastBinding
+    private lateinit var binding: ActivityHelloToastUpgradeBinding
     private var count = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHelloToastBinding.inflate(layoutInflater)
+        binding = ActivityHelloToastUpgradeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         savedInstanceState?.getInt(COUNT_BUNDLE_KEY)?.let {

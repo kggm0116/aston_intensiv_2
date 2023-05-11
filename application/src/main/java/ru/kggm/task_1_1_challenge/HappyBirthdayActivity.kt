@@ -1,4 +1,4 @@
-package ru.kggm.happybirthday;
+package ru.kggm.task_1_1_challenge;
 
 import android.content.Context
 import android.content.res.Resources

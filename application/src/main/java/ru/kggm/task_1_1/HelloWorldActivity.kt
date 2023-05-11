@@ -1,4 +1,4 @@
-package ru.kggm.helloworld
+package ru.kggm.task_1_1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

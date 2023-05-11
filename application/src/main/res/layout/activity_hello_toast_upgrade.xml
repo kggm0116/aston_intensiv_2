@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="ru.kggm.hellotoast.HelloToastActivity">
+    tools:context="ru.kggm.task_1_2_A.HelloToastActivity">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/toast_button"

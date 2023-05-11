@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ru.kggm.happybirthday.HappyBirthdayActivity">
+    tools:context="ru.kggm.task_1_1_challenge.HappyBirthdayActivity">
 
     <TextView
         android:id="@+id/happy_birthday_text"

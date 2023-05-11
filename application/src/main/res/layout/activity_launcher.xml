@@ -20,28 +20,37 @@
         android:id="@+id/task_1_1_challenge_button"
         style="@style/launcher_button_style"
         android:text="@string/task_1_1_challenge_text"
-        app:layout_constraintBottom_toTopOf="@id/task_1_2_homework_button"
+        app:layout_constraintBottom_toTopOf="@id/task_1_2_A_homework_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/task_1_1_homework_button" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/task_1_2_homework_button"
+        android:id="@+id/task_1_2_A_homework_button"
         style="@style/launcher_button_style"
-        android:text="@string/task_1_2_homework_text"
-        app:layout_constraintBottom_toTopOf="@id/task_1_2_challenge_button"
+        android:text="@string/task_1_2_A_homework_text"
+        app:layout_constraintBottom_toTopOf="@id/task_1_2_A_challenge_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/task_1_1_challenge_button" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/task_1_2_challenge_button"
+        android:id="@+id/task_1_2_A_challenge_button"
         style="@style/launcher_button_style"
-        android:text="@string/task_1_2_challenge_text"
+        android:text="@string/task_1_2_A_challenge_text"
+        app:layout_constraintBottom_toTopOf="@id/task_1_2_B_homework_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/task_1_2_A_homework_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/task_1_2_B_homework_button"
+        style="@style/launcher_button_style"
+        android:text="@string/task_1_2_B_homework_text"
         app:layout_constraintBottom_toTopOf="@id/task_1_3_homework_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/task_1_2_homework_button" />
+        app:layout_constraintTop_toBottomOf="@id/task_1_2_A_challenge_button" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/task_1_3_homework_button"
@@ -50,6 +59,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/task_1_2_challenge_button" />
+        app:layout_constraintTop_toBottomOf="@id/task_1_2_B_homework_button" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
