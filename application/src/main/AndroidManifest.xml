@@ -20,13 +20,16 @@
         </activity>
         <activity
             android:name="ru.kggm.happybirthday.HappyBirthdayActivity"
-            android:theme="@style/Theme.AstonTask2.NoActionBar"></activity>
+            android:theme="@style/Theme.AstonTask2.NoActionBar" />
         <activity
             android:name="ru.kggm.helloworld.HelloWorldActivity"
-            android:theme="@style/Theme.AstonTask2.NoActionBar"></activity>
+            android:theme="@style/Theme.AstonTask2.NoActionBar" />
         <activity
             android:name="ru.kggm.hellotoast.HelloToastActivity"
-            android:theme="@style/Theme.AstonTask2.NoActionBar"></activity>
+            android:theme="@style/Theme.AstonTask2.NoActionBar" />
+        <activity
+            android:name="ru.kggm.hellotoast_challenge.HelloToastChallengeActivity"
+            android:theme="@style/Theme.AstonTask2.NoActionBar" />
     </application>
 
 </manifest>
