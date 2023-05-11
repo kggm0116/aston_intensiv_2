@@ -12,6 +12,7 @@ class FirstActivity : AppCompatActivity() {
         private val LOG_TAG = FirstActivity::class.java.simpleName
         private const val MESSAGE_TEXT_BUNDLE_ARG = "message text"
         const val EXTRA_MESSAGE = "extra message"
+        const val TEXT_REQUEST = 1
     }
 
     private lateinit var binding: ActivityFirstBinding
@@ -45,7 +46,8 @@ class FirstActivity : AppCompatActivity() {
         Intent(this, SecondActivity::class.java)
             .putExtra(EXTRA_MESSAGE, messageText)
             .let {
-                startActivity(it)
+                // TODO("Replace deprecated api")
+                startActivityForResult(it, TEXT_REQUEST)
             }
     }
 }
